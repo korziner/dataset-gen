@@ -18,3 +18,42 @@ dataset-gen generate  --provider ollama  --model gemma4:31b-cloud
 --temperature 0.3 
 --threads 2
 ```
+
+```
+Usage: dataset-gen generate [OPTIONS] --model <MODEL> --input <INPUT> --output <OUTPUT>
+
+Options:
+      --provider <PROVIDER>
+          [default: ollama]
+      --model <MODEL>
+          
+      --input <INPUT>
+          
+      --output <OUTPUT>
+          
+      --persona <PERSONA>
+          
+      --topic <TOPIC>
+          
+  -t, --threads <THREADS>
+          [default: 4]
+      --temperature <TEMPERATURE>
+          [default: 0.7]
+      --max-tokens <MAX_TOKENS>
+          [default: 512]
+      --llamacpp-bin <LLAMACPP_BIN>
+          
+      --ollama-url <OLLAMA_URL>
+          [default: http://localhost:11434]
+      --format <FORMAT>
+          [default: alpaca]
+      --system <SYSTEM>
+          
+      --sharegpt-id
+          
+      --history <HISTORY>
+          
+      --instruction-template <INSTRUCTION_TEMPLATE>
+          Default instruction template (use {text} as placeholder) [default: "Прочитай этотъ отрывокъ и выскажи своё мнѣніе, какъ будто ты обсуждаешь его за обѣдомъ: {text}"]
+  -h, --help
+```
