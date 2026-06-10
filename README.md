@@ -3,6 +3,9 @@ Dialog in pre-1918 orphograpy of Russia of XIX вѣка
 
 <img width="1907" height="839" alt="image" src="https://github.com/user-attachments/assets/886f70c8-f211-4c50-801f-7815497c345a" />
 
+```
+tail -f 1781065330.gemma431b-cloud.dataset_alpaca.jsonl|jq .|ug "\?.*\?"
+```
 Use like this:
 
 ```
